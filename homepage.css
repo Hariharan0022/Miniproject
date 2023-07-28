@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+/* CSS for header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(to right, #8baac4c5, #8da5ef);
+  padding-left: 350px;
+}
+.logo{
+  height:70px;
+  width: 70px;
+  border-radius: 52px;
+
+}
+.logohead{
+   
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.header .logo {
+  font-size: 25px;
+  font-family: 'Sriracha', cursive;
+  color: #f3e9e9;
+  text-decoration: none;
+  margin-left: 30px;
+}
+  .nav-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10%;
+    width:70%;
+    background-image: linear-gradient(to right, #8d7eef50, #362c91);
+
+  }
+ 
+  
+
+.nav-items a {
+  text-decoration: none;
+  color: #fdf6f6;
+  padding: 35px 20px;
+  padding-right: 100px;
+}
+/* CSS for main section */
+.intro24 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 900px;
+  background-image:url("https://wallpapermemory.com/uploads/435/skyscraper-background-hd-1680x1050-488612.jpg");
+  background-size: cover;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  padding-right: 100px;
+}
+
+.intro24 h1 {
+  font-family: sans-serif;
+  font-size: 60px;
+  color: #0c0303;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.intro24 p {
+  font-size: 20px;
+  color: rgb(20, 20, 20);
+  
+  margin: 20px 0;
+}
+
+
+.intro24 .loginbutton{
+  background-color: #a8cfe8;
+  color: #000;
+  padding: 10px 25px;
+  padding-bottom:35px;
+  border: none;
+  width:100%;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4)
+}
+
+.achievements {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 80px;
+}
+
+.achievements .work {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.achievements .work i {
+  width: fit-content;
+  font-size: 50px;
+  color: #333333;
+  border-radius: 50%;
+  border: 2px solid #333333;
+  padding: 12px;
+}
+
+.achievements .work .work-heading {
+  font-size: 20px;
+  color: #333333;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+.achievements .work .work-text {
+  font-size: 15px;
+  color: #585858;
+  margin: 10px 0;
+}
+
+.about-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 80px;
+  border-top: 2px solid #eeeeee;
+}
+
+.about-me img {
+  width: 500px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.about-me-text h2 {
+  font-size: 30px;
+  color: #333333;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.about-me-text p {
+  font-size: 15px;
+  color: #585858;
+  margin: 10px 0;
+}
+/* CSS for footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #362c91;
+  padding: 40px 80px;
+}
+
+.footer .copy {
+  color: #fff;
+}
+
+.bottom-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.bottom-links .links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.bottom-links .links span {
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+.bottom-links .links a {
+  text-decoration: none;
+  color: #a1a1a1;
+  padding: 10px 20px;
+}
+.loginbutton{
+   border-style:double;
+   border-color: white;
+   background:none;
+   color: white;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    margin-right:80%;
+    padding-left: -20%;
+    font-size: 20px; /* Increase the font size */
+    cursor: pointer;
+    height: 50%;
+}
+.loginbutton:hover{
+  width:100%;
+}
+
+.signupbutton{
+    border-style: double;
+    border-color: white;
+    margin-right: 20px;
+    background: none;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 20px; /* Increase the font size */
+    cursor: pointer;
+    height: 50%;
+    
+    
+
+}
+.upward{
+    height: 10px;
+    width: 10px;
+    color: white;
+}
+
+.quality p{
+    font-size:20px;
+}

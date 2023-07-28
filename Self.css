@@ -1,0 +1,18 @@
+.selfbg{
+    background-image: url(https://img.freepik.com/free-vector/searching-through-curriculum-vitae-papers-workers_52683-43378.jpg?w=740&t=st=1690179143~exp=1690179743~hmac=ed39a0f46750c148e8d6c9f05252d30c873f372da9187b87fc2afce693c6ee16);
+    height:1000px;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.selfbg .addbutton1{
+    margin-left:50%;
+    width:200px;
+    height:50px;
+    margin-top: 100px;
+}
+.selfbg .addbutton2{
+    margin-left:80%;
+    width:200px;
+    height:50px;
+    margin-top: 60px;
+}

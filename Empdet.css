@@ -1,0 +1,177 @@
+.addcrud{
+    background-image: url(https://img.freepik.com/premium-vector/white-background-with-blue-technology-circuit_583398-369.jpg?w=2000);
+    height:1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+}
+.arh1{
+    color: rgb(16, 2, 2);
+}
+.arid{
+    color:black;
+    padding-left: 35%;
+    padding-bottom:32%;
+    font-size: 20px;
+}
+#arshowId{
+    height:30px;
+}
+.arlead{
+    color:black;
+    padding-left: 35%;
+    padding-bottom:19%;
+    font-size: 20px;
+}
+#arshowLead{
+    height:30px;
+}
+.artitle{
+    color:black;
+    padding-left: 35%;
+    padding-bottom:7%;
+    font-size: 20px;
+}
+#arshowTitle{
+    height:30px;
+}
+.argenre{
+    color:black;
+    padding-left: 34%;
+    padding-top:5%;
+    font-size: 20px;
+}
+#arGenre{
+    height:30px;
+    width:70%;
+}
+.artype{
+    color:black;
+    padding-left: 34%;
+    padding-top:15%;
+    font-size: 20px;
+}
+#arlive{
+    width:60%;
+}
+
+.arlive{
+    color:black;
+    padding-left: 45%;
+    padding-top:20%;
+    font-size: 20px;
+}
+.arvideo{
+    color:black;
+    padding-left: 50%;
+    padding-top:20%;
+    font-size: 20px;
+}
+.ardate{
+    color:black;
+    padding-left: 34%;
+    padding-top:28%;
+    font-size: 20px;
+}
+#ardate{
+    width:70%;
+    height:30px;
+}
+.artimefrom{
+    color:black;
+    padding-left: 31%;
+    padding-top:40%;
+    font-size: 20px;
+}
+.artimeto{
+    color:black;
+    padding-left: 33%;
+    padding-top:52%;
+    font-size: 20px;
+}
+#arfromTime{
+    width:70%;
+    height:30px;
+}
+#artoTime{
+    width:70%;
+    height:30px;
+}
+.arlocation{
+    color:black;
+    padding-left: 32%;
+    padding-top:64%;
+    font-size: 20px;
+}
+#arlocation{
+    width:70%;
+    height:30px;
+}
+.arsubmit{
+    background-color: black;
+    border-radius: 25px;
+    width:200px;
+    height:50px;
+    color:white;
+}
+.arp{
+    color:black;
+    text-align: center;
+    font-size: 25px;
+    padding-top:0px;
+}
+.add-show-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .add-show-form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-show-form form {
+    display: grid;
+    gap: 10px;
+  }
+  
+  .add-show-form label {
+    font-weight: bold;
+  }
+  
+  .add-show-form input,
+  .add-show-form select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .add-show-form input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  .add-show-form button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-show-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .add-show-form p {
+    margin-top: 10px;
+    text-align: center;
+    color: green;
+  }

@@ -1,0 +1,19 @@
+.loginbuttonadd{
+    border-style:double;
+    border-color: rgb(30, 28, 28);
+    background:none;
+    color: white;
+
+     text-align: center;
+     text-decoration: none;
+     
+     font-size: 20px; /* Increase the font size */
+     cursor: pointer;
+     height: 100%;
+}
+.dash3{
+    background-image: url(https://img.freepik.com/free-vector/abstract-illustration-online-job-interview_23-2148636291.jpg?w=1060&t=st=1690177825~exp=1690178425~hmac=b94bf7c4083e7a0819f401e47258ee2cf5f29c12523d05d9a95a3430b1092f62);
+    height:1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

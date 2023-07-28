@@ -1,0 +1,19 @@
+.viewbgoff{
+    background-image:url(https://img.freepik.com/free-photo/human-resources-concept-with-hand_23-2150389117.jpg?w=1060&t=st=1690177959~exp=1690178559~hmac=5d76078d599bb1d1c26dcd32f8fe6314c9d5cd47fd8c1a5be6d6e791384ad1f1);
+    height:1000px;
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+  .gen {
+    width: 80%; 
+    margin: 0 auto; 
+  }
+  .container12{
+    padding-top:20%;
+    margin-left:28%;
+  }
+  .form-title {
+    background-color: #f0f0f0;
+    color: #333;
+    font-weight: bold;
+  }

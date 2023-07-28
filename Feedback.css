@@ -1,0 +1,64 @@
+.containerd{
+    margin-top: 20px;
+    margin-right:1%;
+    /* margin-left: 60%; */
+    width: 450px;
+    height: 450px;
+    border-radius: 2%;
+    padding: 1%;
+    color: Black;
+    background-color: rgb(230, 233, 235); 
+   
+    box-shadow: inset;
+    opacity: 0.8; 
+    /* background-image: url("https://edge.mwallpapers.com/photos/wallpapers/travel-world/beach-wallpaper-widescreen-high-resolution-android-iphone-desktop-hd-backgrounds-wallpapers-1080p-4khd-wallpapers-desktop-background-android-iphone-1080p-4k-qdb8j.jpg"); */
+
+    
+}
+.rowd{
+    color:black;
+    font-size: larger;
+    font-family:cursive;
+}
+input{
+    border-radius: 10px;
+    border-color: #E69A8DFF;
+    width: 250px;
+    height: 30px;
+}
+button{
+    border-radius: 10px;
+    width: 75px;
+    height: 30px;
+}
+button:hover:not(.active){
+    border-radius: 10px;
+    width: 75px;
+    height: 30px;
+    background-color: aqua;
+}
+
+.background{
+    /* background-image: url("https://www.nac-travel.org/wp-content/uploads/2017/10/trvel.jpg");   */
+    /* background-image: url("https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=404798939648209");  */
+     background-image: url("https://i.pinimg.com/originals/95/c4/32/95c432ec12a48c48e6ba23ba8fd26311.gif"); 
+
+    height: 300%;
+    width: 100%;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(11);
+}
+
+h1{
+    font-family: cursive;
+}
+
+table{
+    margin-top: 10%;
+}
+
+.dl{
+   margin-top: 10%;
+}
